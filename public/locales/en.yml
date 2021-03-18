@@ -40,6 +40,13 @@ en:
     hierarch: Finding Aid View
     numeric: Container List
 
+  classification_term:
+    _singular: Collecting Area Term _plural: Collecting Area Terms identifier_separator: "/"
+    classification:
+    _singular: Collecting Area _plural: Collecting Areas creator: Creator identifier_separator: "." _public:
+    actions:
+    show_subgroups: Show Subgroups
+
   search_results:
     page_title: "Found %{count} results"
     results_head: "Showing %{type}: %{start}–%{end} of %{total}"
@@ -47,6 +54,9 @@ en:
         <p>No records found. Check out the <a href="/help" class="alert-link">Help</a> page for search strategies.</p>
     filter:
       identifier: Call Number
+      container_inventory: Container List
+      resources: Collections
+      classifications: Collecting Area
       onsite_status_u_sstr: Storage location
 
   yale_onsite_locations:
@@ -57,9 +67,9 @@ en:
 
   search_sorting:
     identifier: Call Number
-
-  errors:
-    backend_down_message: Archives at Yale is currently experiencing technical difficulties. We apologise for the inconvenience. Please try again later.
+    container_inventory: Container List
+    resources: Collections
+    classifications: Collecting Area
 
   internal_links:
     collection: Navigate the collection
@@ -69,7 +79,6 @@ en:
 
   bulk-date-leader: bulk
   date-label: Dates
-
 
   resource:
     _public:
