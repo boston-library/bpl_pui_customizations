@@ -1,18 +1,4 @@
 /*
- * Initial CSS build:  2018-03-16 Yale University Library
- */
-
-/*
- * The following CSS is used to customize the look-and-feel of the ArchivesSpace Public
- * User Interface into the "Archives at Yale" product.
- *
- * The Archives at Yale look-and-feel was reviewed and approved by the Yale Office of the
- * Printer and closely tracks the look-and-feel of Yale.edu.
- *
- * The CSS was finalized on 2019-01-02
- */
-
-/*
  * =============================================================================== font definitions
  *
  * This section pulls in all of the custom fonts required by the interface.  The font
@@ -48,15 +34,15 @@
 
 body {
   font-family: 'OpenSans-Regular';
-  background-color: #ffffff;
+  background-color: white;
 }
 
 a {
-  color: #0053a8;
+  color: #006d98;
 }
 
 #header {
-  background-color: #00356b;
+  background-color: white;
 }
 
 /* !important needed to override an explicit !important in style.css line 9 */
@@ -66,13 +52,10 @@ a {
 }
 
 div.h1 {
-  /* mdc: removing this!
-  margin-top: 10px;
-  */
   /* adding this for the homepage */
   font-family: 'OpenSans-Regular';
   font-weight: 500;
-  color: #ffffff;
+  color: black;
   /* adding the font-size back */
   font-size: 2.5em;
 }
@@ -80,7 +63,7 @@ div.h1 {
 div.h1>a, div.h1>a:hover {
   font-family: 'OpenSans-Regular';
   font-weight: 500;
-  color: #ffffff;
+  color: #006d98;
   text-decoration: none;
 }
 
@@ -89,36 +72,37 @@ nav.navbar {
 }
 
 /*
-  * !important required to override an applicationxxxxx.css (autogen)
-  * There is no !important directive in this file.
-  */
+ * !important required to override an applicationxxxxx.css (autogen)
+ * There is no !important directive in this file.
+ */
 
 .top-bar {
-  background-color: #000000 !important;
+  background-color: #cf102d !important;
   border: 0px;
 }
 
 /*
-  * !important required to override color in applicationxxxxx.css (autogen)
-  * There is no !important directive in this file for color.
-  * The font-size cannot be displayed as there is an !important
-  * directive in the applicationxxxxx.css file.
-  */
+ * !important required to override color in applicationxxxxx.css (autogen)
+ * There is no !important directive in this file for color.
+ * The font-size cannot be displayed as there is an !important
+ * directive in the applicationxxxxx.css file.
+ */
 
 ul.navbar-nav>li>a, ul.navbar-nav>li>a:hover {
   font-family: 'OpenSans-Regular';
-  color: #ffffff !important;
+  color: white !important;
   text-decoration: none !important;
 }
 
 ul.navbar-nav>li>a:hover {
-  color: #63aaff !important;
+  background: white;
+  color: black !important;
   transition-duration: 0.3s;
 }
 
 h1 {
   font-family: 'OpenSans-Regular';
-  color: #555;
+  color: black;
   font-size: 1.75em;
   font-weight: 500;
 }
@@ -127,13 +111,13 @@ h2 {
   font-family: 'OpenSans-Regular';
   font-weight: 500;
   font-size: 1.5em;
-  color: #00356b;
+  color: black;
 }
 
 h3 {
   font-family: 'OpenSans-Regular';
   font-weight: 500;
-  color: #00356b;
+  color: black;
 }
 
 h4, h2.smaller_gray {
@@ -147,14 +131,16 @@ span.inline-label {
   font-family: 'OpenSans-Regular';
 }
 
+/*
 .btn-dark {
   background-color: #00356b;
   font-size: 1.2em;
   font-family: 'OpenSans-Regular';
 }
+*/
 
 div.profile {
-  color: #ffffff;
+  color: white;
   font-family: 'OpenSans-Regular';
   font-size: 30px;
   font-weight: 500;
@@ -191,7 +177,7 @@ nav ul.breadcrumb li {
   display: inline-block;
   margin-bottom: 5px;
   font-size: 12px;
-  color: #ffffff;
+  color: white;
   padding: 5px 5px 0px 20px;
 }
 
@@ -246,14 +232,14 @@ nav ul.breadcrumb li:last-child:not(:only-child), nav ul.breadcrumb li:last-chil
   margin: unset;
   padding: 2px 5px;
   font-family: 'OpenSans-Regular';
-  color: #000000;
+  color: black;
   content: '' !important;
 }
 
 nav ul.breadcrumb li a {
   position: relative;
   display: block;
-  color: #ffffff;
+  color: white;
 }
 
 nav ul.breadcrumb li:first-child a {
@@ -340,7 +326,7 @@ footer.footer .links {
 }
 
 footer.footer .links a, footer.footer .links a:hover {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
 }
 
@@ -1052,15 +1038,21 @@ mdc:  new additions for updated single-scroll view
 
 /* change tree icons from chevrons to plus/minus icons */
 
+/*
 body #tree-container .expandme .expandme-icon:before {
   content: "\002b";
 }
+*/
 
+/*
 body #tree-container .expandme .expandme-icon.expanded:before {
   content: "\2212";
 }
+*/
 
+/*
 body #tree-container .expandme .expandme-icon.expanded {
   transform: none;
   transition: none;
 }
+*/
