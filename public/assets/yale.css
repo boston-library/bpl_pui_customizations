@@ -23,119 +23,86 @@
 }
 
 /**
- * base elements
+ * typography
  */
 
 body {
-  font-family: "OpenSans-Regular";
-  background-color: white;
+  color: #474747;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+  font-family: "OpenSans-Bold", sans-serif;
+}
+
+/* proper bold/italic glyphs */
+
+strong, b {
+  font-family: "OpenSans-Bold", sans-serif;
+  font-weight: normal;
+}
+
+em, i:not(.fa) {
+  font-family: "OpenSans-Italic";
+  font-style: normal;
+}
+
+/* links */
 
 a {
   color: #006d98;
 }
 
-#header {
-  background-color: white;
+a:hover {
+  color: #084f6b;
 }
 
-div.h1 {
-  font-family: "OpenSans-Regular";
-  font-weight: 500;
+/**
+ * header
+ */
+
+#header>.row {
+  border-bottom: 0.25rem solid black;
+  /* border-bottom: none; */
+}
+
+/* navbar */
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background: #cf102d;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  background: white;
   color: black;
-  font-size: 2.5rem;
-}
-
-div.h1>a, div.h1>a:hover {
-  font-family: "OpenSans-Regular";
-  font-weight: 500;
-  color: #006d98;
   text-decoration: none;
 }
 
 /**
- * !important required to override an applicationxxxxx.css (autogen)
- * There is no !important directive in this file.
+ * buttons
  */
 
-.top-bar {
-  background-color: #cf102d !important;
-  border: 0;
-}
-
-/**
- * !important required to override color in applicationxxxxx.css (autogen)
- * There is no !important directive in this file for color.
- * The font-size cannot be displayed as there is an !important
- * directive in the applicationxxxxx.css file.
- */
-
-ul.navbar-nav>li>a, ul.navbar-nav>li>a:hover {
-  font-family: "OpenSans-Regular";
-  color: white !important;
-  text-decoration: none !important;
-}
-
-ul.navbar-nav>li>a:hover {
-  background: white;
-  color: black !important;
-  transition-duration: 0.3s;
-}
-
-h1 {
-  font-family: "OpenSans-Regular";
-  color: black;
-  font-size: 1.75rem;
-  font-weight: 500;
-}
-
-h2 {
-  font-family: "OpenSans-Regular";
-  font-weight: 500;
-  font-size: 1.5rem;
-  color: black;
-}
-
-h3 {
-  font-family: "OpenSans-Regular";
-  font-weight: 500;
-  color: black;
-}
-
-h4, h2.smaller_gray {
-  font-family: "OpenSans-Regular";
-  font-weight: 500;
-  color: inherit;
-  font-size: 1.2rem;
-}
-
-span.inline-label {
-  font-family: "OpenSans-Regular";
-}
-
-div.profile {
+.btn-primary {
   color: white;
-  font-family: "OpenSans-Regular";
-  font-weight: 500;
-  vertical-align: middle;
-  margin-top: 0 !important;
+  background: #006072;
+  border: 1px solid transparent;
+}
+
+.btn-primary:hover {
+  color: white;
+  background: #03353f;
+  border: 1px solid transparent;
 }
 
 /**
- * skw:  We overrode all <a> tags to OpenSans-Regular.
- * Breadcrumbs shouldn"t be in that font.
+ * yale icons
  */
-
-nav ul.breadcrumb li a {
-  font-family: "OpenSans-Regular";
-}
-
-.record-type-badge {
-  font-family: "OpenSans-Bold";
-  font-weight: 500;
-}
-
-/* new for custom icons */
 
 [class^="yc-"], [class*=" yc-"] {
   font-family: "OpenSans-Regular" !important;
