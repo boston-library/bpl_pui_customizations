@@ -1,0 +1,168 @@
+/**
+ * footer stuff from bpl.org
+ */
+
+#bccms_footer {
+    background: #fff;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 16px;
+}
+
+#bccms_footer #footer_container {
+    padding: 40px 0;
+    border-top: 5px solid #cf102d;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 4px 2px -2px #ccc;
+    position: relative;
+    margin-top: 50px !important;
+}
+
+#bccms_footer * {
+    margin: 0;
+    padding: 0;
+}
+
+#bccms_footer *, #bccms_footer *:before, #bccms_footer *:after {
+    box-sizing: content-box;
+}
+
+#bccms_footer span, #bccms_footer applet, #bccms_footer object, #bccms_footer iframe, #bccms_footer h1, #bccms_footer h2, #bccms_footer h3, #bccms_footer h4, #bccms_footer h5, #bccms_footer h6, #bccms_footer p, #bccms_footer blockquote, #bccms_footer pre, #bccms_footer a, #bccms_footer abbr, #bccms_footer acronym, #bccms_footer address, #bccms_footer big, #bccms_footer cite, #bccms_footer code, #bccms_footer del, #bccms_footer dfn, #bccms_footer em, #bccms_footer img, #bccms_footer ins, #bccms_footer kbd, #bccms_footer q, #bccms_footer s, #bccms_footer samp, #bccms_footer small, #bccms_footer strike, #bccms_footer strong, #bccms_footer sub, #bccms_footer sup, #bccms_footer tt, #bccms_footer var, #bccms_footer b, #bccms_footer u, #bccms_footer i, #bccms_footer center, #bccms_footer dl, #bccms_footer dt, #bccms_footer dd, #bccms_footer ol, #bccms_footer ul, #bccms_footer li, #bccms_footer fieldset, #bccms_footer form, #bccms_footer label, #bccms_footer legend, #bccms_footer table, #bccms_footer caption, #bccms_footer tbody, #bccms_footer tfoot, #bccms_footer thead, #bccms_footer tr, #bccms_footer th, #bccms_footer td, #bccms_footer article, #bccms_footer aside, #bccms_footer canvas, #bccms_footer details, #bccms_footer embed, #bccms_footer figure, #bccms_footer figcaption, #bccms_footer footer, #bccms_footer header, #bccms_footer hgroup, #bccms_footer menu, #bccms_footer nav, #bccms_footer output, #bccms_footer ruby, #bccms_footer section, #bccms_footer summary, #bccms_footer time, #bccms_footer mark, #bccms_footer audio, #bccms_footer video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+#bccms_footer #footer_container .footer_container_12 {
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto !important;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus {
+    font: "Open Sans", sans-serif;
+    padding-left: 50px;
+    padding-bottom: 35px;
+    line-height: 1.5em;
+}
+
+#bccms_footer .clearfix, #bccms_footer .clear {
+    *zoom: 1;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus .social-links-wrapper {
+    float: left;
+    margin-right: 20px;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus ul, #bccms_footer #footer_container .footer_container_12 .footer-menus li {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0;
+}
+
+#bccms_footer ol, #bccms_footer ul {
+    list-style: none;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus .social-links-wrapper ul li {
+    margin-bottom: 5px;
+}
+
+#bccms_footer p, #bccms_footer a, #bccms_footer li, #bccms_footer span {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus .social-links-wrapper ul li a {
+    display: block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus a {
+    text-decoration: none;
+    color: #474747;
+    font-size: .94em;
+    line-height: 19px;
+    font-weight: inherit;
+}
+
+#footer_container .footer-contact-info.small-footer {
+    padding: 15px 0px !important;
+    width: 100%;
+}
+
+#bccms_footer .small-footer, #bccms_footer .feedback-btn-small {
+    display: none;
+}
+
+#bccms_footer .footer-contact-info {
+    background: #cf102d;
+    color: #fff;
+    font-size: 1.00em;
+    padding: 15px 6% !important;
+    min-width: 125px;
+    width: 88%;
+    float: right;
+}
+
+#bccms_footer .clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+#bccms_footer .footer-bottom {
+    max-width: 1220px;
+    padding: 0 20px 20px 20px;
+    margin: 15px auto 0 auto !important;
+    line-height: 1.5em;
+}
+
+div#goog-gt-tt {
+    padding: 10px 14px;
+}
+
+#goog-gt-tt {
+    color: #222;
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+    display: none;
+    font-family: arial;
+    font-size: 10pt;
+    width: 420px;
+    padding: 12px;
+    position: absolute;
+    z-index: 10000;
+}
+
+.goog-te-spinner-pos {
+    z-index: 1000;
+    position: fixed;
+    transition-delay: 0.6s;
+    left: -1000px;
+    top: -1000px;
+}
+
+.goog-te-menu-frame {
+    z-index: 10000002;
+    position: fixed;
+    border: none;
+    -moz-box-shadow: 0 3px 8px 2px #999999;
+    -webkit-box-shadow: 0 3px 8px 2px #999999;
+    box-shadow: 0 3px 8px 2px #999999;
+    _position: absolute;
+}
