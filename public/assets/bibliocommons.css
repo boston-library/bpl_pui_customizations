@@ -166,3 +166,90 @@ div#goog-gt-tt {
     box-shadow: 0 3px 8px 2px #999999;
     _position: absolute;
 }
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus .footer-menu-column {
+    width: 18%;
+    min-width: 165px;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    display: inline-block;
+    float: left;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus .bccms-footer-heading {
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em !important;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus .bccms-footer-heading {
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em !important;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+#bccms_footer .footer-contact-info .bccms-footer-heading a {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus a.feedback-btn span {
+    display: block;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength=3,color=666666)";
+    color: #fff;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus a.feedback-btn {
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 1.286em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background: #006072;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 4px solid #00353f;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.35);
+    padding: 10px 0;
+    margin-top: 10px !important;
+    font-size: 0.875em;
+    float: right;
+    display: block;
+    width: 100%;
+    box-sizing: border-box !important;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus a.feedback-btn span {
+    display: block;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength=3,color=666666)";
+    color: #fff;
+}
+
+.a11y-visually-hidden, .sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+#bccms_footer img {
+    border: none;
+}
+
+#bccms_footer .footer-bottom .footer-col-2 .footer-bottom-copyright .copyright-statement {
+    font-size: 0.75em;
+    color: #474747;
+}
