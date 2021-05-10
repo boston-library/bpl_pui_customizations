@@ -44,7 +44,7 @@ strong, b {
   font-weight: normal;
 }
 
-em, i:not(.fa) {
+em:not(.fa):not(.fab):not(.fad):not(.fal):not(.far):not(.fas), i:not(.fa):not(.fab):not(.fad):not(.fal):not(.far):not(.fas) {
   font-family: "OpenSans-Italic";
   font-style: normal;
 }
@@ -70,9 +70,17 @@ a:hover {
 
 /* navbar */
 
+.top-bar {
+  background: #cf102d !important;
+  border: 0;
+  box-shadow: 0 0.15rem 0.25rem #d9d8d6;
+}
+
+/*
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   background: #cf102d;
 }
+*/
 
 .navbar-default .navbar-nav>li>a {
   color: white;
@@ -98,6 +106,29 @@ a:hover {
   color: white;
   background: #03353f;
   border: 1px solid transparent;
+}
+
+/**
+ * tab pills
+ */
+
+.tabbing.nav-pills>li>a {
+  border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+/* change tree icons from chevrons to plus/minus icons */
+
+body #tree-container .expandme .expandme-icon:before {
+  content: "\002b";
+}
+
+body #tree-container .expandme .expandme-icon.expanded:before {
+  content: "\2212";
+}
+
+body #tree-container .expandme .expandme-icon.expanded {
+  transform: none;
+  transition: none;
 }
 
 /**

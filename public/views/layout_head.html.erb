@@ -1,1 +1,10 @@
 <%= stylesheet_link_tag "#{@base_url}/assets/yale.css?_t=#{ASConstants.VERSION}" %>
+
+<% if ( [ 'objects', 'resources' ].include?( controller.controller_name  ))  %>
+<!--  expand all, but only if the screen width is gte 768px  -->
+<script type="text/javascript" >
+  $( function() {
+    if ($(window).width() >= 768) { collapse_all('.note_panel',true); }
+  } );
+</script>
+<% end %>
