@@ -22,6 +22,11 @@
   src: url("fonts/OpenSans-BoldItalic.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: 'ycustom';
+  src: url("fonts/OpenSans-BoldItalic.woff2/ycustom.woff2") format("woff2");
+}
+
 /**
  * typography
  */
@@ -116,7 +121,7 @@ a:hover {
   border-radius: 1rem 1rem 0 0 !important;
 }
 
-/* line 101, aspace.scss add padding between tabs*/
+/* line 101, aspace.scss add padding between tabs */
 
 .tabbing.nav-pills>li>a {
   margin-left: 0.5px;
@@ -134,7 +139,7 @@ a:hover {
   content: "\f068";
 }
 
-#tree-container .expandme .expandme-icon.expanded {
+#tree-container .expandme .expandme-icon, #tree-container .expandme .expandme-icon.expanded {
   font-family: "FontAwesome";
   transform: none;
   transition: none;
@@ -145,7 +150,7 @@ a:hover {
  */
 
 [class^="yc-"], [class*=" yc-"] {
-  font-family: "OpenSans-Regular" !important;
+  font-family: "ycustom" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -157,7 +162,7 @@ a:hover {
 }
 
 .yc-4x {
-  font-size: 4rem;
+  font-size: 4em;
 }
 
 .yc-series:before {
