@@ -76,7 +76,7 @@ a:hover {
 /* navbar */
 
 .top-bar {
-  background: #cf102d !important;
+  background: #C10230 !important;
   border: 0;
   box-shadow: 0 0.15rem 0.25rem #d9d8d6;
 }
@@ -171,4 +171,48 @@ a:hover {
 
 .yc-collection:before {
   content: "\e900";
+}
+
+/**
+ * icon colors
+ */
+
+.icon-repository {
+  color: black;
+}
+
+.icon-collection {
+  color: #362364;
+}
+
+.icon-series {
+  color: #fc7332;
+}
+
+.icon-collection-subcomponent {
+  color: #236f44;
+}
+
+.icon-unprocessed {
+  color: #6c797c;
+}
+
+.icon-container {
+  color: #b487c0;
+}
+
+.icon-subject {
+  color: #802666;
+}
+
+.icon-name {
+  color: #13508b;
+}
+
+.icon-record-group {
+  color: #1b6173;
+}
+
+.icon-digital-object {
+  color: #65d4e9;
 }
