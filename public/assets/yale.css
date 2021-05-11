@@ -113,20 +113,29 @@ a:hover {
  */
 
 .tabbing.nav-pills>li>a {
-  border-radius: 0.5rem 0.5rem 0 0 !important;
+  border-radius: 1rem 1rem 0 0 !important;
+}
+
+/* line 101, aspace.scss add padding between tabs*/
+
+.tabbing.nav-pills>li>a {
+  margin-left: 0.5px;
 }
 
 /* change tree icons from chevrons to plus/minus icons */
 
-body #tree-container .expandme .expandme-icon:before {
-  content: "\002b";
+#tree-container .expandme .expandme-icon:before {
+  /* FA + */
+  content: "\f067";
 }
 
-body #tree-container .expandme .expandme-icon.expanded:before {
-  content: "\2212";
+#tree-container .expandme .expandme-icon.expanded:before {
+  /* FA - */
+  content: "\f068";
 }
 
-body #tree-container .expandme .expandme-icon.expanded {
+#tree-container .expandme .expandme-icon.expanded {
+  font-family: "FontAwesome";
   transform: none;
   transition: none;
 }
