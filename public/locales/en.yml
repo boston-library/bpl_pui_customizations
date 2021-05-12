@@ -1,0 +1,43 @@
+en:
+  actions:
+    hierarch: Full Collection View
+    numeric: Container List
+
+  search_results:
+   filter:
+      primary_type: Record Type
+      creators: Collection Creator
+      creators_text: Collection Creator
+      identifier: Call Number
+      collecting_area_uri: Collecting Area
+      type_enum_s: Record Type
+
+  search_sorting:
+    identifier: Call Number
+
+  internal_links:
+    collection: Navigate the collection
+
+  containers: Containers (Physical Storage Information)
+  cont_arr: Naviate the Collection
+
+  resource:
+    _public:
+      identifier: Call Number
+      additional: Arrangement, Processing Information, & Additional Description
+      finding_aid:
+        head: Administrative Information
+
+  digital_object: &digital_object_attributes
+    _singular: Digitized Record
+    _plural: Digitized Materials
+    _public:
+      link: Link to digitized materials
+
+  classification:
+    _singular: Collecting Area
+    _plural: Collecting Areas
+
+  classification_term:
+    _singular: Collecting Area Term
+    _plural: Collecting Area Terms
