@@ -145,6 +145,13 @@ a:hover {
   transition: none;
 }
 
+/* other chevronery */
+
+.breadcrumb>li+li:before {
+  color: #00171f;
+  content: ">";
+}
+
 /**
  * yale icons
  */
