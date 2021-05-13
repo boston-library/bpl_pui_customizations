@@ -203,7 +203,7 @@ a:hover {
  * icon colors
  */
 
-[class^="record-type-badge"], [class*=" record-type-badge"] {
+[class^="record-type-badge"], [class*=" record-type-badge"], .large-badge button {
   color: black !important;
   border-color: black !important;
 }
