@@ -1,7 +1,7 @@
 en:
   actions:
     hierarch: Full Collection View
-    numeric: Container List
+    numeric: Box List
 
   search_results:
    filter:
@@ -18,13 +18,12 @@ en:
   internal_links:
     collection: Navigate the collection
 
-  containers: Containers (Physical Storage Information)
+  containers: Stored in
   cont_arr: Naviate the Collection
 
   resource:
     _public:
       identifier: Call Number
-      additional: Arrangement, Processing Information, & Additional Description
       finding_aid:
         head: Administrative Information
 
