@@ -184,6 +184,11 @@ a:hover {
  * icon colors
  */
 
+.large-badge button, .record-type-badge {
+  color: black;
+}
+
+/*
 .icon-repository {
   color: black;
 }
@@ -223,3 +228,4 @@ a:hover {
 .icon-digital-object {
   color: #59CBE8;
 }
+*/
