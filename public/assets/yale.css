@@ -180,12 +180,32 @@ a:hover {
   content: "\e900";
 }
 
+.fa-yale-accession {
+  position: relative;
+}
+
+.fa-yale-accession:before {
+  content: "\f0ad";
+  font-size: .6em;
+  position: absolute;
+  transform: rotate(270deg);
+  left: 2.5px;
+  top: 5px;
+}
+
+.fa-yale-accession:after {
+  content: "\f016";
+  font-size: 1.2em;
+  left: 0;
+}
+
 /**
  * icon colors
  */
 
-.large-badge button, .record-type-badge {
-  color: black;
+[class^="record-type-badge"], [class*=" record-type-badge"] {
+  color: black !important;
+  border-color: black !important;
 }
 
 /*
