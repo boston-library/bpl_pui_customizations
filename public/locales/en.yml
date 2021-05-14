@@ -76,6 +76,10 @@ en:
   containers: Stored in
   cont_arr: Naviate the Collection
 
+  repository:
+    what: What's in this library?
+    details: About this library
+
   resource:
     _public:
       identifier: Call Number
