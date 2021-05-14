@@ -1,3 +1,3 @@
-# Yale PUI Customizations
+# BPL PUI Customizations
 
-Assorted changes being made to the PUI for Yale aesthetics and functionality.
+Assorted changes being made to the ArchivesSpace PUI for BPL aesthetics and functionality.
