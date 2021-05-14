@@ -83,6 +83,7 @@ en:
   resource:
     _public:
       identifier: Call Number
+      additional: Additional Description
       finding_aid:
         head: Administrative Information
 
