@@ -9,7 +9,7 @@
 }
 
 #bccms_footer #footer_container {
-    padding: 40px 0;
+    /* padding: 40px 0; */
     border-top: 5px solid #cf102d;
     width: 100%;
     background: #fff;
@@ -252,4 +252,9 @@ div#goog-gt-tt {
 #bccms_footer .footer-bottom .footer-col-2 .footer-bottom-copyright .copyright-statement {
     font-size: 0.75em;
     color: #474747;
+}
+
+#bccms_footer #footer_container .footer_container_12 .footer-menus .social-links-wrapper ul li a img {
+    width: 32px;
+    position: relative;
 }

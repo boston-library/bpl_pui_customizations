@@ -1,4 +1,59 @@
 en:
+  brand:
+    welcome_message: |
+      <div class="col-sm-6">
+        <h3>About</h3>
+        <p>
+          This site contains descriptions and inventories of the archival collections held by <a href="https://www.bpl.org/" target="_blank">Boston Public Library</a> and the
+          <a href="https://www.leventhalmap.org/" target="_blank">Norman B. Leventhal Map & Education Center</a>.
+          Archives at BPL are described in <strong>finding aids</strong>, which include essential information about the creation, content, arrangement, and context of these collections.
+          <strong>Use this site to search and discover rare, distinctive, and culturally significant materials in BPL’s collections.</strong>
+        </p>
+
+        <p>
+          An archival collection is a group of related materials that documents the activities of an individual, family, or organization.
+          BPL archives include personal papers, records of local businesses and organizations, and subject-based collections, as well as the library’s institutional records.
+          Learn more about archives and finding aids on our <a href="help#about">Help page<a/>.
+        </p>
+
+        <p>
+          Rare books, manuscripts, maps, prints, drawings, music, and fine art are described in the <a href="https://catalog.mbln.org/Polaris/Search/default.aspx?ctx=1.1033.0.0.5&type=Advanced" target="_blank">research catalog</a> or in BPL’s <a href="https://guides.bpl.org/manuscripts/cardcatalogs" target="_blank">digitized card catalogs</a>.
+          Thousands of digitized objects are also available on <a href="https://www.digitalcommonwealth.org/institutions/commonwealth:sf268508b" target="_blank">Digital Commonwealth</a> and <a href="https://archive.org/details/bostonpubliclibrary">Internet Archive</a>.
+          Leventhal Map Center collections are discoverable through the Center’s <a href="https://www.leventhalmap.org/collections/" target="_blank">website</a>.
+        </p>
+
+        <p>
+          <strong>
+          Boston Public Library special collections are available for the study and enjoyment of all.
+          </strong>
+        </p>
+      </div>
+
+      <div class="col-sm-6">
+        <h3>What is included?</h3>
+        <p>
+          <strong>We are in the process of adding collection descriptions to this catalog</strong> as only a portion of BPL archival collections are currently represented here.
+          BPL’s finding aids have evolved over time in a range of formats; we are actively working to create more complete, equitable, and accessible collection descriptions.
+        </p>
+
+        <h3>Requesting materials & Contact</h3>
+        <p>
+          Please note that the Special Collections Reading Room is currently closed for renovations until 2022.
+          Until then, collections are unavailable for in-person research.
+        </p>
+
+        <p>
+          For questions about our collections, help navigating BPL finding aids, or to suggest changes to our descriptions, you can <a href="https://www.bpl.org/have-a-question-about-our-special-collections/" target="_blank">contact us directly</a>.
+        </p>
+
+        <hr />
+
+        <p>
+          Boston Public Library finding aid description, metadata, and descriptions of persons, families, and organizations are licensed under a <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</a>.
+          <a href="help#data">Read more<a/>.
+        </p>
+      </div>
+
   actions:
     hierarch: Full Collection View
     numeric: Box List

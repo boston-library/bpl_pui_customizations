@@ -254,7 +254,30 @@ a:hover {
  * aspace footer stuff
  */
 
+/*
 .aspace_links {
   text-align: right;
-  line-height: 5rem;
+  line-height: 3rem;
+  margin: 0 0 3rem 0 !important;
+  font-weight: bold;
+}
+*/
+
+.aspace_links {
+  text-align: center;
+  line-height: 2rem;
+  background: black;
+  margin: 0 0 2rem 0 !important;
+  /* padding: 0 7rem !important; */
+  color: white;
+}
+
+.aspace_links a {
+  color: white;
+  text-decoration: none;
+}
+
+.aspace_links a:hover {
+  color: white;
+  text-decoration: underline !important;
 }
