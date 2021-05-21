@@ -74,10 +74,10 @@ en:
     collection: Navigate the collection
 
   containers: Stored in
-  cont_arr: Naviate the Collection
+  cont_arr: Navigate the Collection
 
   repository:
-    _plural: About the Library
+    _plural: About the Archives
     what: What's in this library?
     details: About this library
 
