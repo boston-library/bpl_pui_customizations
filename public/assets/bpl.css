@@ -73,12 +73,20 @@ a:hover {
   /* border-bottom: none; */
 }
 
+#header a {
+  color: black;
+}
+
 /* navbar */
 
 .top-bar {
   background: #C10230 !important;
   border: 0;
   box-shadow: 0 0.15rem 0.25rem #d9d8d6;
+}
+
+.navbar {
+  border: none;
 }
 
 /*
@@ -276,9 +284,4 @@ a:hover {
 .aspace_links a {
   color: white;
   text-decoration: none;
-}
-
-.aspace_links a:hover {
-  color: white;
-  text-decoration: underline !important;
 }

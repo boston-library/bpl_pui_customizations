@@ -87,7 +87,7 @@
 }
 
 #bccms_footer #footer_container .footer_container_12 .footer-menus a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #474747;
     font-size: .94em;
     line-height: 19px;
