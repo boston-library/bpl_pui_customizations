@@ -105,6 +105,12 @@ a:hover {
   text-decoration: none;
 }
 
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  background: white;
+  color: black;
+  /* text-decoration: underline; */
+}
+
 /**
  * buttons
  */
@@ -127,6 +133,11 @@ a:hover {
 
 .tabbing.nav-pills>li>a {
   border-radius: 1rem 1rem 0 0 !important;
+}
+
+.tabbing.nav-pills>li>a.active {
+  background-color: #03353f;
+  color: #ffffff;
 }
 
 /* line 101, aspace.scss add padding between tabs */
