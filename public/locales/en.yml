@@ -1,7 +1,7 @@
 en:
   brand:
     welcome_message: |
-      <div class="col-sm-6">
+<div class="col-sm-6">
         <h3>About</h3>
         <p>
           This site contains descriptions and inventories of the archival collections held by <a href="https://www.bpl.org/" target="_blank">Boston Public Library</a> and the
@@ -16,7 +16,7 @@ en:
         </p>
         <h4>Finding other rare, historic, and special collections at the BPL</h4>
         <p>
-          Rare books, manuscripts, maps, prints, drawings, music, and fine art are described in the <a href="https://catalog.mbln.org/Polaris/Search/default.aspx?ctx=1.1033.0.0.5&type=Advanced" target="_blank">research catalog</a> or in BPL’s <a href="https://guides.bpl.org/manuscripts/cardcatalogs" target="_blank">digitized card catalogs</a>. Thousands of digitized objects are also available on <a href="https://www.digitalcommonwealth.org/institutions/commonwealth:sf268508b" target="_blank">Digital Commonwealth</a> and <a href="https://archive.org/details/bostonpubliclibrary" target="_blank">Internet Archive</a>. Leventhal Map Center collections are discoverable through the Center’s <a href="https://www.leventhalmap.org/collections/" target="_blank">website</a>.
+          While archival collections are described on this site, you’ll find descriptions for rare books, single manuscripts, maps, prints, drawings, music, and fine art in other databases. To explore other formats, visit the <a href="https://www.bpl.org/special-collections/" target="_blank">BPL Special Collections website</a> and the <a href="https://www.leventhalmap.org/collections/" target="_blank">Leventhal Map Center website</a>.
         </p>
 
         <p>
@@ -34,9 +34,9 @@ en:
         </p>
 
         <h3>Requesting materials</h3>
-        <p>Please note that the Special Collections Reading Room is currently closed for renovations until 2022. Until then, collections are unavailable for in-person research.
+        <p><strong>Everyone is welcome to use our collections in our reading room at Central Library.</strong> In order to prepare our collections for your use, research appointments are required.
         </p>
-        <p>Collections at the Leventhal Map & Education Center are available for access. Please <a href="https://www.leventhalmap.org/research/appointments/" target="_blank">contact the department</a> to make a research appointment.
+        <p>Plan your research visit and make an appointment on the <a href="https://www.bpl.org/special-collections/use/research/" target="_blank">BPL Special Collections research page</a>.
         <h3>Contact us</h3>
         <p>
           BPL Special Collections staff are always happy to connect. For questions about our collections, help navigating BPL finding aids, or to suggest changes to our descriptions, you can <a href="https://www.bpl.org/have-a-question-about-our-special-collections/" target="_blank">contact us directly</a>.
