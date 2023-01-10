@@ -1,7 +1,7 @@
 en:
   brand:
     welcome_message: |
-<div class="col-sm-6">
+     <div class="col-sm-6">
         <h3>About</h3>
         <p>
           This site contains descriptions and inventories of the archival collections held by <a href="https://www.bpl.org/" target="_blank">Boston Public Library</a> and the
