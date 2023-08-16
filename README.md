@@ -1,4 +1,5 @@
 # BPL PUI Customizations
 
-Assorted changes made to the ArchivesSpace PUI for BPL aesthetics and functionality.
-This stylesheet is used on [Archives & Special Collections](https://archives.bpl.org/).
+Assorted changes being made to the ArchivesSpace PUI for BPL aesthetics and functionality.
+
+Updated 2023-01-09 to include links to new BPL Special Collections website and new language about reading room access

@@ -1,7 +1,7 @@
 en:
   brand:
     welcome_message: |
-      <div class="col-sm-6">
+     <div class="col-sm-6">
         <h3>About</h3>
         <p>
           This site contains descriptions and inventories of the archival collections held by <a href="https://www.bpl.org/" target="_blank">Boston Public Library</a> and the
@@ -36,6 +36,7 @@ en:
         <h3>Requesting materials</h3>
         <p><strong>Everyone is welcome to use our collections in our reading room at Central Library.</strong> In order to prepare our collections for your use, research appointments are required.
         </p>
+
         <p>Plan your research visit and make an appointment on the <a href="https://www.bpl.org/special-collections/use/research/" target="_blank">BPL Special Collections research page</a>.</p>
         <h3>Contact us</h3>
         <p>
